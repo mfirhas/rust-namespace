@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "package_1_binary",
+    "package_2_binary",
+    "package_3_library"
+]
