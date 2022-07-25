@@ -9,7 +9,7 @@ In Rust, it's called **mod**. Mod behaves like C++ namespace where it segments c
 
 **Library** : crate producing non-executable program acts as supporting code for binary crate without `fn main()`.
 
-There are 5 kinds of namespacing:
+Here are examples of Rust's namespacing with mod in these 5 kind of codebase structures:
 - 1 binary
 - 1 library
 - 1 binary and 1 library
