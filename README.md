@@ -6,7 +6,7 @@ Some examples of how namespacing in Rust is.
 
 **Library** : crate producing non-executable program acts as supporting code for binary crate without `fn main()`.
 
-There are 4 kinds of namespacing:
+There are 5 kinds of namespacing:
 - 1 binary
 - 1 library
 - 1 binary and 1 library
