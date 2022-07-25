@@ -1,0 +1,16 @@
+[package]
+name = "sample_1_binary_1_library"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "library"
+path = "src/library/lib.rs"
+
+[[bin]]
+name = "binary"
+path = "src/binary/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
