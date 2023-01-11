@@ -1,0 +1,1 @@
+pub const LIB1_CONST: &str = "im from lib1 const";
