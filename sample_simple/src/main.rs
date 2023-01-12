@@ -1,7 +1,6 @@
 // ketika ada main.rs dan lib.rs di dalam src. Maka cargo akan mendeteksi main.rs sebagai binary crate untuk executable/entry program 
 // dan lib.rs sebagai crate library untuk supporting library.
-// main.rs menjadi crate utama sehingga module2 lain selain lib hanya bisa di-declare di dalam main.rs.
-// lib.rs hanya bisa import hal-hal di dalam ranah dia.
+// Jika main, lib, dan asd berada di dalam level yang sama, maka module selain main dan lib crate hanya bisa di-declare di dalam main crate.
 
 use asd::lib1;
 use asd::lib2;

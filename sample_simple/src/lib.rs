@@ -1,4 +1,4 @@
-// pub mod asd; ////! cannot do this as submodule must be defined from within abother folder, same level crate can only be declared inside main.rs
+// pub mod asd; ////! if main, lib and this module are all in same level, then this module can only be imported from main crate.
 
 
 // use crate:: ////! only can import things inside this file only because the main crate already exists and other files can only be imported there.
