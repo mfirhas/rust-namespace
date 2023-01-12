@@ -1,0 +1,10 @@
+[package]
+name = "sample_n_sub_packages"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+subpackage1 = { path = "subpackage1", package = "subpackage1" }
+subpackage2 = { path = "subpackage2", package = "subpackage2" }
