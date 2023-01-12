@@ -1,5 +1,8 @@
 // pub mod asd; ////! cannot do this as submodule must be defined from within abother folder, same level crate can only be declared inside main.rs
 
+
+// use crate:: ////! only can import things inside this file only because the main crate already exists and other files can only be imported there.
+
 pub mod anu {
     pub fn a() {
         println!("A");
